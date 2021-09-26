@@ -1,0 +1,115 @@
+/* PC */
+@media (min-width: 1024px){
+    
+}
+
+/* tablet */
+/* @media screen and (min-width:740px) and (max-width:1023px) {
+    
+} */
+
+
+/* mobile & tablet */
+@media screen and (max-width: 1023px){
+    .nav .subnav a{
+        padding: 5px 41px; ;
+    }
+
+    .places-list .buy-ticket{
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+    }
+
+    .contact-info {
+        line-height: 2.1;
+    }
+
+    .footer-icon{
+        font-size: 48px;
+    }
+    .copy-right{
+        padding: 12px 0px;
+        font-size: 30px;
+    }
+}
+
+
+/* moblie */
+@media (max-width: 739px ){
+
+    .nav{
+        display: block;
+    }
+
+    .nav .subnav{
+        position: initial;
+        background-color: #333;
+        color: #000
+    }
+
+    .subnav a{
+        
+    }
+
+    .subnav li a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    
+    .mobile-menu-btn{
+        display: block;
+    }
+
+    .nav > li:first-child{
+        display: inline-block;
+    }
+    .nav > li{
+        display: block;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+    
+
+    .button-search{
+        display: none;
+    }
+
+    #content .member-moblie-rps{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-img{
+        width: 60%;
+    }
+
+    .mobile-col-full{
+        width: 100% !important;
+    }
+
+    .contact-section .contact-form{
+        margin-top: 16px;
+    }
+
+    .mobile-mt-8{
+        margin-top: 8px !important;
+    }
+
+    .mobile-full-with{
+        width: 100% !important;
+    }
+
+    .text-slider{
+        display: none;
+    }
+
+    
+
+
+}
+
